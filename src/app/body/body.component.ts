@@ -19,7 +19,11 @@ export class BodyComponent {
       styleClass = 'body-md-screen'
     }
 
-    return styleClass;
+    //bug sim: Next line is a simulated bug to show the expand and collapse feater misbehaving 
+    // the lhs nav section expands and hides the content when the logo "A" button is clicked.
+    // Note: I think many viewes including me missed this since the video passed this section quicker.
+    // To fix replace this line with: return styleClass;
+    return '';
   }
 
 }
