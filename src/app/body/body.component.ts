@@ -23,7 +23,7 @@ export class BodyComponent {
     // the lhs nav section expands and hides the content when the logo "A" button is clicked.
     // Note: I think many viewes including me missed this since the video passed this section quicker.
     // To fix replace this line with: return styleClass;
-    return '';
+    return styleClass;
   }
 
 }
